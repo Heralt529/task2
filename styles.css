@@ -1,48 +1,74 @@
-header{
-    height: 120px;
-    color: white;
-    border: 1px solid;
-    border-color: white;
-    background-color: #4aa85a;
-    img{
-        float:left;
-        margin: 10px;
-    }
-    margin-bottom: 30px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS;', cursive;
 }
+
+#topper{
+	img{
+		float: left;
+	}
+	h1{
+		margin-top: 50px;
+	}
+	display: flex;
+    justify-content: center;
+}
+
+#forma{
+	text-align: center;
+	width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+#links_list{
+	width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+header{
+	background-color: #4aa85a;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
 footer{
+	display: flex;
     background-color: #4aa85a;
     height: 60px;
-    text-align: center;
-    line-height: 60px;
-    margin-top: 30px;
-    border: 1px solid;
-    border-color: white;
+    text-align: left;
+    align-items: center; 
 }
+
+img{
+	margin: 10px;
+}
+
 body{
-/*    text-align: center;*/
-    background-color: #1f1f1f;
-    color:white;
+	background-color: #1f1f1f;
+	color: white;
 }
-p{
-    color: #ebebeb;
-}
-a{
-    color:white;
-}
-ul{
-    color:white;
-}
+
 ol{
-    color:white;
+	padding-left: 15px;
 }
+
+a{
+	color: white;
+}
+
+h2{
+	text-align: center;
+}
+
 table{
     border-collapse: collapse;
     text-align: center;
-    width: 800px;
-    height: 300px;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-bottom: 30px;
     tr.even
     {
@@ -54,13 +80,12 @@ table{
     tr.header{
         background-color:#4aa85a;
     }
+    width:800px;
+	height: 300px; 
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
-form{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
+
 th, td{
     border: 1px solid;
     border-color: white;
